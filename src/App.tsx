@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Calendar from './components/Calendar';
 import { Event } from './types';
 import { sampleEvents } from './data/events';
-
+ 
 function App() {
   const [events, setEvents] = useState<Event[]>(sampleEvents);
 
