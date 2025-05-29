@@ -1,13 +1,13 @@
 import { Event } from '../types';
 import { addDays, addMonths } from 'date-fns';
 
-// Get current date
+
 const today = new Date();
 
-// Format date to ISO string without time
+
 const formatDateToISO = (date: Date) => date.toISOString().split('T')[0];
 
-// Create sample events
+
 export const sampleEvents: Event[] = [
   {
     id: '1',
@@ -109,9 +109,9 @@ export const sampleEvents: Event[] = [
     description: 'Watching the new Marvel movie',
     color: '#8B5CF6' // violet
   },
-  // --- Student-focused events for the next 6 months ---
+  
 
-  // Month 1
+
   {
     id: '11',
     title: 'Freshers\' Orientation',
@@ -172,7 +172,7 @@ export const sampleEvents: Event[] = [
     endTime: '17:00',
     duration: 480, // 8 hours
     description: 'Brainstorm and pitch innovative solutions to real-world problems. Form teams and collaborate!',
-    color: '#EF4444' // red-500
+    color: '
   },
   {
     id: '17',
@@ -182,7 +182,7 @@ export const sampleEvents: Event[] = [
     endTime: '15:30',
     duration: 90,
     description: 'Insights from an industry expert on the latest advancements in sustainable technology.',
-    color: '#0D9488' // teal-600
+    color: '#0D9488' 
   },
   {
     id: '18',
@@ -192,10 +192,10 @@ export const sampleEvents: Event[] = [
     endTime: '18:00',
     duration: 540, // 9 hours
     description: 'Compete in various sports and cheer for your department! A day of fun and friendly competition.',
-    color: '#6366F1' // violet-600
+    color: '#6366F1' 
   },
 
-  // Month 3
+ 
   {
     id: '19',
     title: 'Resume Building & Interview Skills',
@@ -204,7 +204,7 @@ export const sampleEvents: Event[] = [
     endTime: '13:00',
     duration: 180,
     description: 'Workshop to help you craft a winning resume and ace your job interviews.',
-    color: '#F97316' // orange-500
+    color: '#F97316' 
   },
   {
     id: '20',
@@ -214,7 +214,7 @@ export const sampleEvents: Event[] = [
     endTime: '16:00',
     duration: 360,
     description: 'Test your problem-solving skills in a competitive coding environment. Prizes for top performers!',
-    color: '#0EA5E9' // sky-500
+    color: '#0EA5E9'
   },
   {
     id: '21',
@@ -224,7 +224,7 @@ export const sampleEvents: Event[] = [
     endTime: '22:00',
     duration: 180,
     description: 'Showcase your talents – singing, poetry, stand-up comedy, or anything creative!',
-    color: '#EC4899' // pink-500
+    color: '#EC4899'
   },
   {
     id: '22',
@@ -234,7 +234,7 @@ export const sampleEvents: Event[] = [
     endTime: '12:30',
     duration: 90,
     description: 'Interactive session on coping with academic stress and maintaining mental well-being.',
-    color: '#10B981' // emerald-500
+    color: '#10B981'
   },
 
   // Month 4
@@ -246,7 +246,7 @@ export const sampleEvents: Event[] = [
     endTime: '13:30',
     duration: 240,
     description: 'Guidance on structuring research papers, citation styles, and effective academic writing.',
-    color: '#4F46E5' // indigo-600
+    color: '#4F46E5'
   },
   {
     id: '24',
@@ -256,7 +256,7 @@ export const sampleEvents: Event[] = [
     endTime: '17:00',
     duration: 480, // 8 hours
     description: 'Simulated interview and group discussion rounds to prepare for campus placements.',
-    color: '#F59E0B' // amber-500
+    color: '#F59E0B' 
   },
   {
     id: '25',
@@ -266,7 +266,7 @@ export const sampleEvents: Event[] = [
     endTime: '22:00',
     duration: 720, // 12 hours
     description: 'Celebrate diversity with traditional attire, food stalls, and cultural performances.',
-    color: '#EF4444' // red-500
+    color: '#EF4444'
   },
   {
     id: '26',
@@ -276,7 +276,7 @@ export const sampleEvents: Event[] = [
     endTime: '18:00',
     duration: 120,
     description: 'Connect with successful alumni for career guidance and mentorship opportunities.',
-    color: '#8B5CF6' // violet-500
+    color: '#8B5CF6'
   },
 
   // Month 5
@@ -288,7 +288,7 @@ export const sampleEvents: Event[] = [
     endTime: '17:00',
     duration: 480, // 8 hours
     description: 'Intensive workshop for aspiring entrepreneurs. Learn about business planning, funding, and marketing.',
-    color: '#0D9488' // teal-600
+    color: '#0D9488'
   },
   {
     id: '28',
@@ -298,7 +298,7 @@ export const sampleEvents: Event[] = [
     endTime: '16:00',
     duration: 420, // 7 hours
     description: 'Final matches, prize distribution, and closing ceremony of the annual sports day.',
-    color: '#6366F1' // violet-600
+    color: '#6366F1'
   },
   {
     id: '29',
@@ -308,7 +308,7 @@ export const sampleEvents: Event[] = [
     endTime: '15:30',
     duration: 90,
     description: 'Deep dive into the latest trends and applications of Artificial Intelligence.',
-    color: '#0EA5E9' // sky-500
+    color: '#0EA5E9' 
   },
   {
     id: '30',
@@ -318,7 +318,7 @@ export const sampleEvents: Event[] = [
     endTime: '23:00',
     duration: 780, // 13 hours
     description: 'Annual university festival with cultural performances, competitions, and celebrity guest!',
-    color: '#EC4899' // pink-500
+    color: '#EC4899'
   },
 
   // Month 6
@@ -330,7 +330,7 @@ export const sampleEvents: Event[] = [
     endTime: '17:00', // End time is the same as start time for a deadline
     duration: 0, // No duration for a deadline
     description: 'Final submission deadline for all semester projects. Ensure all reports and code are submitted.',
-    color: '#EF4444' // red-500
+    color: '#EF4444' 
   },
   {
     id: '32',
@@ -340,7 +340,7 @@ export const sampleEvents: Event[] = [
     endTime: '12:00',
     duration: 120,
     description: 'Tips and strategies for effective exam preparation and managing exam stress.',
-    color: '#F59E0B' // amber-500
+    color: '#F59E0B' 
   },
   {
     id: '33',
@@ -350,7 +350,7 @@ export const sampleEvents: Event[] = [
     endTime: '22:00',
     duration: 240,
     description: 'A grand farewell to our graduating batch. Celebrate their achievements and wish them luck!',
-    color: '#8B5CF6' // violet-500
+    color: '#8B5CF6' 
   },
   {
     id: '34',
@@ -360,6 +360,6 @@ export const sampleEvents: Event[] = [
     endTime: '17:00', // Assuming a day range for exams
     duration: 480, // Representative duration
     description: 'Good luck with your semester-end examinations!',
-    color: '#4F46E5' // indigo-600
+    color: '#4F46E5' 
   },
 ];
