@@ -7,7 +7,6 @@ import { sampleEvents } from './data/events';
 function App() {
   const [events, setEvents] = useState<Event[]>(sampleEvents);
 
-  // Handler for adding new events
   const handleAddEvent = (newEvent: Omit<Event, 'id'>) => {
     const eventWithId = {
       ...newEvent,
