@@ -172,7 +172,7 @@ export const sampleEvents: Event[] = [
     endTime: '17:00',
     duration: 480, // 8 hours
     description: 'Brainstorm and pitch innovative solutions to real-world problems. Form teams and collaborate!',
-    color: '
+    color: '#EF4444'
   },
   {
     id: '17',
