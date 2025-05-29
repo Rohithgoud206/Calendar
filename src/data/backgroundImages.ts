@@ -1,5 +1,5 @@
 import { BackgroundImageMap } from '../types';
-
+ 
 export const backgroundImages: BackgroundImageMap = {
   0: 'https://images.pexels.com/photos/688660/pexels-photo-688660.jpeg',
   1: 'https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg',
