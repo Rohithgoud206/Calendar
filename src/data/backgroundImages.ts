@@ -8,4 +8,10 @@ export const backgroundImages: BackgroundImageMap = {
   4: 'https://images.pexels.com/photos/1166209/pexels-photo-1166209.jpeg',
   5: 'https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg',
   6: 'https://images.pexels.com/photos/46253/mt-fuji-sea-of-clouds-sunrise-46253.jpeg',
-  7: 'https://images.pexels.com/photos/1237119/pexels-photo-1237119.jpeg'
+  7: 'https://images.pexels.com/photos/1237119/pexels-photo-1237119.jpeg',
+  8: 'https://images.pexels.com/photos/1448055/pexels-photo-1448055.jpeg',
+  9: 'https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg',
+  10: 'https://images.pexels.com/photos/2310713/pexels-photo-2310713.jpeg',
+  11: 'https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg'
+};
+
