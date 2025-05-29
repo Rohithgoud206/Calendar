@@ -1,10 +1,10 @@
 export interface Event {
   id: string;
   title: string;
-  date: string; // ISO string format
-  startTime: string; // format: "HH:MM"
-  endTime: string; // format: "HH:MM"
-  duration: number; // in minutes
+  date: string;
+  startTime: string;
+  endTime: string;
+  duration: number;
   description?: string;
   color?: string;
 }
